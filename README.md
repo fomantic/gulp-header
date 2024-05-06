@@ -2,6 +2,10 @@ The canonical location of this project is now [gulp-community/gulp-header](https
 
 # gulp-header
 
+> ### Forked Version using updated dependencies
+> Original repo at https://github.com/gulp-community/gulp-header
+
+
 [![npm version](https://img.shields.io/github/package-json/v/gulp-community/gulp-header)](https://www.npmjs.com/package/gulp-header)
 [![Actions Status](https://github.com/gulp-community/gulp-header/workflows/Tests/badge.svg)](https://github.com/gulp-community/gulp-header/actions)
 [![Code Coverage](https://img.shields.io/coveralls/github/gulp-community/gulp-header)](https://github.com/gulp-community/gulp-header)

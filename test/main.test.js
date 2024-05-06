@@ -1,8 +1,8 @@
-require('jest');
 const path = require('path');
 const stream = require('stream');
 const File = require('vinyl');
 const gulp = require('gulp');
+const expect = require('expect');
 const header = require('../');
 
 const streamToString = stream =>
