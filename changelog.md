@@ -1,7 +1,7 @@
 # Changelog
 
 Will welcome if anyone wants to backfill prior changelogs.
-## 2.1.0 - 2024-05-07
+## 2.1.1 - 2024-05-07
 
 * Remove lodash.
 * Updated dependencies
