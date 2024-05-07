@@ -56,7 +56,6 @@
   },
   "dependencies": {
     "concat-with-sourcemaps": "^1.1.0",
-    "lodash.template": "^4.5.0",
     "map-stream": "^0.1.0",
     "through2": "^3.0.2"
   },
@@ -65,8 +64,8 @@
     "mocha": "^9.2.2",
     "nyc": "^15.1.0",
     "expect": "^27.5.1",
-    "should": "*",
-    "vinyl": "*"
+    "should": "^13.2.3",
+    "vinyl": "^3.0.0"
   },
   "scripts": {
     "test": "mocha ",

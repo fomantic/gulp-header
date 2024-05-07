@@ -4,7 +4,13 @@
 
 const Concat = require('concat-with-sourcemaps');
 const through = require('through2');
-const lodashTemplate = require('lodash.template');
+const simpleTemplate = (str, obj) => {
+    const replacer = (match, val) => val.split('.').reduce((acc, subVal) => acc && acc[subVal] || '', obj);
+    return str
+      .replace(/\${(.*?)}/g, replacer)
+      .replace(/<%=\s*(.*?)\s*%>/g, replacer)
+  }
+;
 const stream = require('stream');
 const path = require('path');
 
@@ -21,7 +27,7 @@ module.exports = (headerText, data) => {
     const template =
       data === false
         ? headerText
-        : lodashTemplate(headerText)(
+        : simpleTemplate(headerText,
             Object.assign({}, file.data || {}, { file: file, filename: filename }, data)
           );
 
