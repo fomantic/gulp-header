@@ -1,6 +1,11 @@
 # Changelog
 
 Will welcome if anyone wants to backfill prior changelogs.
+## 2.1.0 - 2024-05-07
+
+* Remove lodash.
+* Updated dependencies
+* Switched to mocha testing
 
 ## 1.8.8 - 2016-08-10
 
