@@ -4,6 +4,8 @@ The canonical location of this project is now [gulp-community/gulp-header](https
 
 > ### Forked Version using updated dependencies
 > Original repo at https://github.com/gulp-community/gulp-header
+> 
+> This Version replaces lodash template by a simpler by still effective replacement. All test still pass
 
 
 [![npm version](https://img.shields.io/github/package-json/v/gulp-community/gulp-header)](https://www.npmjs.com/package/gulp-header)
